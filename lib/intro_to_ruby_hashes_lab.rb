@@ -1,7 +1,7 @@
 require 'pry'
 
 def my_hash_creator(key, value)
-  { key: value }
+  new = { key: value }
 end
 binding.pry
 
