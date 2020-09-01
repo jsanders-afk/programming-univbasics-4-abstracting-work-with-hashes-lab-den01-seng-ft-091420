@@ -1,4 +1,4 @@
-require 'pry'
+
 def my_hash_creator(key, value)
   new = { key => value }
 end
