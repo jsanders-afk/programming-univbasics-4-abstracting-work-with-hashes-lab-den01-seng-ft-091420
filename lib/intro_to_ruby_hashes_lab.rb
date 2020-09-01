@@ -1,9 +1,8 @@
-require 'pry'
 
 def my_hash_creator(key, value)
   new = { key => value }
 end
-binding.pry
+
 def read_from_hash(hash, key)
   hash[key]
 end
